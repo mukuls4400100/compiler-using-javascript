@@ -1,0 +1,26 @@
+#lines {
+    width: 30px;
+    height: 360px;
+    background-color: beige;
+    color: grey;
+    overflow: hidden;
+}
+#box {
+    height: 360px;
+    width: 600px;
+}
+#textArea {
+    width: 100%!important;
+    height: 100%;
+    white-space: normal;
+    resize: none;
+}
+#textArea:focus{
+    outline: none;
+}
+#output-box {
+    height: 150px;
+    background-color: black;
+    color: cornsilk;
+    overflow: auto;
+}
